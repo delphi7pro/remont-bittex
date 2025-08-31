@@ -5,76 +5,76 @@ import Icon from "@/components/ui/icon";
 const About = () => {
   const timeline = [
     {
-      year: "2003",
-      title: "Основание пасеки",
-      description: "Начали с 5 ульев в деревне Медовка"
-    },
-    {
-      year: "2008",
-      title: "Расширение производства",
-      description: "Увеличили количество ульев до 50, начали продажи на рынке"
+      year: "2012",
+      title: "Основание компании",
+      description: "Начали с ремонта холодильников в гараже"
     },
     {
       year: "2015",
-      title: "Сертификация качества",
-      description: "Получили сертификат органического производства"
+      title: "Расширение услуг",
+      description: "Добавили ремонт стиральных машин и посудомоек"
+    },
+    {
+      year: "2018",
+      title: "Сертификация мастеров",
+      description: "Получили официальные сертификаты от производителей"
     },
     {
       year: "2020",
-      title: "Онлайн-магазин",
-      description: "Запустили интернет-продажи и доставку по всей России"
+      title: "Онлайн-сервис",
+      description: "Запустили сайт и систему онлайн-записи"
     },
     {
       year: "2024",
-      title: "Современная пасека",
-      description: "Более 200 ульев, собственная лаборатория качества"
+      title: "Лидер рынка",
+      description: "15000+ отремонтированных приборов, команда из 15 мастеров"
     }
   ];
 
   const team = [
     {
-      name: "Иван Петрович Медведев",
-      role: "Главный пчеловод",
-      experience: "25 лет",
-      description: "Основатель пасеки, потомственный пчеловод в третьем поколении",
+      name: "Александр Петров",
+      role: "Главный мастер",
+      experience: "12 лет",
+      description: "Основатель компании, специалист по холодильному оборудованию",
       image: "/img/0b81fc7a-0179-4edc-8d1d-664da96158aa.jpg"
     },
     {
-      name: "Мария Ивановна Медведева",
-      role: "Технолог производства",
-      experience: "20 лет",
-      description: "Отвечает за качество продукции и разработку новых продуктов",
-      image: "/img/0b81fc7a-0179-4edc-8d1d-664da96158aa.jpg"
+      name: "Михаил Сидоров",
+      role: "Ведущий мастер",
+      experience: "8 лет",
+      description: "Эксперт по ремонту стиральных машин и посудомоечных машин",
+      image: "/img/9086a193-d0f4-4859-b74b-ac81f93aa4a8.jpg"
     },
     {
-      name: "Алексей Иванович Медведев",
-      role: "Менеджер по продажам",
-      experience: "10 лет",
-      description: "Развивает онлайн-продажи и работает с клиентами",
-      image: "/img/0b81fc7a-0179-4edc-8d1d-664da96158aa.jpg"
+      name: "Дмитрий Козлов",
+      role: "Мастер-универсал",
+      experience: "6 лет",
+      description: "Специализируется на встраиваемой технике и мелких приборах",
+      image: "/img/eefef1fe-f4cf-4978-a9be-514bd1b84f2f.jpg"
     }
   ];
 
   const achievements = [
     {
       icon: "Award",
-      title: "Золотая медаль",
-      description: "Региональная выставка 'Мед России 2023'"
+      title: "15000+ ремонтов",
+      description: "Успешно отремонтированных приборов за 12 лет"
     },
     {
       icon: "Shield",
-      title: "Сертификат качества",
-      description: "ISO 22000 система менеджмента безопасности пищевых продуктов"
+      title: "Сертифицированные мастера",
+      description: "Официальные сертификаты от Samsung, LG, Bosch"
     },
     {
-      icon: "Leaf",
-      title: "Эко-сертификат",
-      description: "Органическое производство без химических добавок"
+      icon: "Clock",
+      title: "24/7 поддержка",
+      description: "Круглосуточный прием заявок и аварийные выезды"
     },
     {
       icon: "Users",
-      title: "5000+ клиентов",
-      description: "Довольных покупателей по всей России"
+      title: "98% довольных клиентов",
+      description: "Высокий рейтинг удовлетворенности услугами"
     }
   ];
 
@@ -85,8 +85,8 @@ const About = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Icon name="Hexagon" className="w-8 h-8 text-honey" />
-              <h1 className="text-2xl font-bold text-brown">О нашей пасеке</h1>
+              <Icon name="Building" className="w-8 h-8 text-honey" />
+              <h1 className="text-2xl font-bold text-brown">О компании</h1>
             </div>
             <Button onClick={() => window.history.back()} variant="outline">
               <Icon name="ArrowLeft" className="w-4 h-4 mr-2" />
@@ -102,20 +102,20 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-brown mb-6">
-                Семейная пасека с 2003 года
+                РемТехСервис с 2012 года
               </h2>
               <p className="text-lg text-forest mb-6">
-                Мы - семья пчеловодов в третьем поколении. Наша страсть к пчеловодству 
-                передается из поколения в поколение, а традиции и секреты мастерства 
-                бережно сохраняются и совершенствуются.
+                Мы - команда профессиональных мастеров с многолетним опытом. 
+                Специализируемся на ремонте бытовой техники всех марок и моделей. 
+                Наша цель - вернуть вашей технике вторую жизнь.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-honey">200+</div>
-                  <div className="text-sm text-forest">ульев</div>
+                  <div className="text-3xl font-bold text-honey">15000+</div>
+                  <div className="text-sm text-forest">ремонтов</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-honey">20+</div>
+                  <div className="text-3xl font-bold text-honey">12</div>
                   <div className="text-sm text-forest">лет опыта</div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const About = () => {
             <div>
               <img 
                 src="/img/0b81fc7a-0179-4edc-8d1d-664da96158aa.jpg" 
-                alt="Семейная пасека"
+                alt="Команда мастеров"
                 className="rounded-lg shadow-2xl w-full"
               />
             </div>
@@ -136,7 +136,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-brown mb-4">История развития</h3>
-            <p className="text-forest text-lg">Путь от маленькой пасеки до современного производства</p>
+            <p className="text-forest text-lg">Путь от небольшой мастерской до ведущего сервиса</p>
           </div>
           
           <div className="relative">
@@ -167,7 +167,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-brown mb-4">Наша команда</h3>
-            <p className="text-forest text-lg">Люди, которые создают качественные продукты</p>
+            <p className="text-forest text-lg">Профессионалы, которые решают ваши проблемы</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -195,7 +195,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-brown mb-4">Наши достижения</h3>
-            <p className="text-forest text-lg">Признание качества нашей продукции</p>
+            <p className="text-forest text-lg">Цифры, которые говорят о нашем профессионализме</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -222,23 +222,23 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <Icon name="Heart" className="w-16 h-16 text-honey mx-auto mb-4" />
-              <h4 className="text-xl font-semibold text-brown mb-4">Любовь к делу</h4>
+              <h4 className="text-xl font-semibold text-brown mb-4">Профессионализм</h4>
               <p className="text-forest">
-                Мы искренне любим пчеловодство и вкладываем душу в каждый продукт
+                Постоянно совершенствуем навыки и изучаем новые технологии
               </p>
             </div>
             <div className="text-center">
-              <Icon name="Leaf" className="w-16 h-16 text-honey mx-auto mb-4" />
-              <h4 className="text-xl font-semibold text-brown mb-4">Экологичность</h4>
+              <Icon name="Clock" className="w-16 h-16 text-honey mx-auto mb-4" />
+              <h4 className="text-xl font-semibold text-brown mb-4">Оперативность</h4>
               <p className="text-forest">
-                Используем только натуральные методы без химических добавок
+                Быстро реагируем на заявки и выполняем ремонт в кратчайшие сроки
               </p>
             </div>
             <div className="text-center">
               <Icon name="Shield" className="w-16 h-16 text-honey mx-auto mb-4" />
-              <h4 className="text-xl font-semibold text-brown mb-4">Качество</h4>
+              <h4 className="text-xl font-semibold text-brown mb-4">Надежность</h4>
               <p className="text-forest">
-                Строгий контроль качества на всех этапах производства
+                Даем гарантию на все работы и используем качественные запчасти
               </p>
             </div>
           </div>
